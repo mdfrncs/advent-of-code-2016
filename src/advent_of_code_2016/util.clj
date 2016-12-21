@@ -5,3 +5,9 @@
   (try
     (Integer/parseInt (str x))
     (catch Exception e)))
+
+(defn to-long
+  [x]
+  (try
+    (Long/parseLong (str x))
+    (catch Exception e)))
